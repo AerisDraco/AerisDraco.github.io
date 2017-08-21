@@ -4,7 +4,43 @@
 <link rel="stylesheet" type="text/css" href="CAP.css">
 </head>
 
-<p>Ironhide CAP project Pokemon details. Link: https://forums.ironhidegames.com/viewtopic.php?f=10&amp;t=</p>
+<p id="warning">This is Aeris' KR Civ game calculator.<br>
+You enter the name of your faction, in caps (e.g. Linirea or Dark Forces) and the unit type.<br>
+This will bring up a menu detailing the abilties of each combatant. Checkmark which abilties apply in the situation (if they're researched and whether they apply).<br>
+Then click submit under both menus, and finally calculate to perform final calculations.
+Calculations between different sets of units require a page reload, but a single duel may be recalc'd with multiple abilities.</p>
+
+<form id="form1" onsubmit="return false;">
+Your Faction:  <input type="text" id="fact1" /><br>
+Unit Type:     <input type="text" id="unit1" /><br>
+Enemy Faction: <input type="text" id="fact2" /><br>
+Unit Type:     <input type="text" id="unit2" /><br>
+<input type="submit" onclick="saveData();" />
+</form>
+
+<p id="unittypes"></p>
+<p id="abilities">Abilities in Effect</p>
+<form id="aform1" onsubmit="return false;">
+<div id="container1"></div>
+<input type="submit" onclick="saveAbil();" />
+</form>
+
+<form id="aform2" onsubmit="return false;">
+<div id="container2"></div>
+<input type="submit" onclick="saveAbil();" />
+</form>
+
+<button type="button" id="calc" onclick="calculate()">Press to Calculate with Above Settings</button>
+
+<p id="damage1"></p>
+<p id="damage2"></p>
+<p id="spread"></p>
+<p id="fort1"></p>
+<p id="fort2"></p>
+
+<script src="KRCiv.js"></script>
+
+<!--p>Ironhide CAP project Pokemon details. Link: https://forums.ironhidegames.com/viewtopic.php?f=10&amp;t=</p>
 
 <div>
 	<h2>Non-Area Associated Pokemon Families</h2>
@@ -733,12 +769,12 @@
 		<tr><table><tr>
 					<td class="StatTitle">Attack:</td>
 					<td class="StatNum"><b>65</b></td>
-					<td class="ATK-I" style="width:70px"></td>
+					<td class="ATK-I" style="width:65px"></td>
 		</tr></table></tr>
 		<tr><table><tr>
 					<td class="StatTitle">Defense:</td>
 					<td class="StatNum"><b>75</b></td>
-					<td class="DEF-I" style="width:70px"></td>
+					<td class="DEF-I" style="width:75px"></td>
 		</tr></table></tr>
 		<tr><table><tr>
 					<td class="StatTitle">Special Attack:</td>
@@ -1118,8 +1154,8 @@
 	</ul>
 	<b>Locations</b>
 	<ul>
-		<li><b>Kingdom:</b> Evolve Termight @ L36 if Male</li>
-		<li><b>Frontiers:</b> Evolve Termight @ L36 if Male</li>
+		<li><b>Kingdom:</b> Evolve Nyvern @ L36 if Male</li>
+		<li><b>Frontiers:</b> Evolve Nyvern @ L36 if Male</li>
 	</ul>
 	<b>Pokedex Entry</b>
 	<ul>
@@ -1134,32 +1170,32 @@
 		<tr><table><tr>
 					<td class="StatTitle">HP:</td>
 					<td class="StatNum"><b></b></td>
-					<td class="HP-I" style="width:0px"></td>
+					<td class="HP-I" style="width:70px"></td>
 		</tr></table></tr>
 		<tr><table><tr>
 					<td class="StatTitle">Attack:</td>
 					<td class="StatNum"><b></b></td>
-					<td class="ATK-I" style="width:0px"></td>
+					<td class="ATK-I" style="width:110px"></td>
 		</tr></table></tr>
 		<tr><table><tr>
 					<td class="StatTitle">Defense:</td>
 					<td class="StatNum"><b></b></td>
-					<td class="DEF-I" style="width:0px"></td>
+					<td class="DEF-I" style="width:80px"></td>
 		</tr></table></tr>
 		<tr><table><tr>
 					<td class="StatTitle">Special Attack:</td>
 					<td class="StatNum"><b></b></td>
-					<td class="SPA-I" style="width:px"></td>
+					<td class="SPA-I" style="width:50px"></td>
 		</tr></table></tr>
 		<tr><table><tr>
 					<td class="StatTitle">Special Defense:</td>
 					<td class="StatNum"><b></b></td>
-					<td class="SPD-I" style="width:0px"></td>
+					<td class="SPD-I" style="width:90px"></td>
 		</tr></table></tr>
 		<tr><table><tr>
 					<td class="StatTitle">Speed:</td>
 					<td class="StatNum"><b></b></td>
-					<td class="SPE-I" style="width:0px"></td>
+					<td class="SPE-I" style="width:100px"></td>
 		</tr></table></tr>
 		<tr>
 			<td>BST: <b>500</b></td>
@@ -1810,7 +1846,7 @@
 <p>
 	<b>#840 (National) or #038 (Linirea)</b>
 	<br>
-	<b>Typing:</b> <p><mark class="t1">Bug</mark>/{<mark class="t11">Ground</mark>/<mark class="t14">Poison</mark>/<mark class="t16">Rock</mark>/<mark class="t18">Water</mark>/<mark class="t11">Grass</mark>/<mark class="t12">Ice</mark>/<mark class="t7">Fire</mark>}</p>
+	<b>Typing:</b> <p><mark class="t1">Bug</mark>/{<mark class="t11">Ground</mark>/<mark class="t14">Poison</mark>/<mark class="t16">Rock</mark>/<mark class="t18">Water</mark>/<mark class="t10">Grass</mark>/<mark class="t12">Ice</mark>/<mark class="t7">Fire</mark>}</p>
 	<br>
 	<b>Ability:</b>
 	<br>
@@ -2339,7 +2375,7 @@
 			<td><div class="MoveM">Tri Attack</div></td>
 		</tr>
 	</table>
-</p>
+</p-->
 
 </body>
 </html>
