@@ -1384,10 +1384,10 @@ function calculate() {
 	//fort calcs
 	gcs[2] = gcs[2] + 3
 	gcs[4] = gcs[4] + 3
-	if (ff1 == "Aredhel") {
+	if (ff1 == "Aredhel Elves") {
 		gcs[1] = gcs[1] + 2;
 	}
-	if (ff2 == "Aredhel") {
+	if (ff2 == "Aredhel Elves") {
 		gcs[3] = gcs[3] + 2;
 	}
 	if (ut1 == "City") {
