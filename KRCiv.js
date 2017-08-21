@@ -1322,8 +1322,8 @@ function calculate() {
 	if (sd1 <= 1) {
 		sd1 = 1;
 	}
-	var random1 = Math.floor(Math.random() * 20);
-	random1 = random1 + 90
+	var random1 = Math.floor(Math.random() * 50);
+	random1 = random1 + 75
 	var ran1 = random1 / 100;
 	expo1 = sd1 * ran1
 	power1 = Math.pow(1.25, expo1) 
@@ -1354,8 +1354,8 @@ function calculate() {
 	if (sd2 <= 1) {
 		sd2 = 1;
 	}
-	var random2 = Math.floor(Math.random() * 20);
-	random2 = random2 + 90
+	var random2 = Math.floor(Math.random() * 50);
+	random2 = random2 + 75
 	var ran2 = random2 / 100;
 	expo2 = sd2 * ran2
 	power2 = Math.pow(1.25, expo2) 
@@ -1396,8 +1396,8 @@ function calculate() {
 	if (sd1 <= 1) {
 		sd1 = 1;
 	}
-	var random1 = Math.floor(Math.random() * 20);
-	random1 = random1 + 90
+	var random1 = Math.floor(Math.random() * 50);
+	random1 = random1 + 75
 	var ran1 = random1 / 100;
 	expo1 = sd1 * ran1
 	power1 = Math.pow(1.25, expo1) 
@@ -1431,8 +1431,8 @@ function calculate() {
 	if (sd2 <= 1) {
 		sd2 = 1;
 	}
-	var random2 = Math.floor(Math.random() * 20);
-	random2 = random2 + 90
+	var random2 = Math.floor(Math.random() * 50);
+	random2 = random2 + 75
 	var ran2 = random2 / 100;
 	expo2 = sd2 * ran2
 	power2 = Math.pow(1.25, expo2) 
