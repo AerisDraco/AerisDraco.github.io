@@ -548,9 +548,9 @@ function writeAbilities() {
 			document.getElementById("abi3").style.visibility="hidden";document.getElementById("a3").style.visibility="hidden";
 			document.getElementById("abi4").style.visibility="hidden";document.getElementById("a4").style.visibility="hidden";
 			document.getElementById("abi5").style.visibility="hidden";document.getElementById("a5").style.visibility="hidden";
-			document.getElementById("a1").innerHTML = "Counterattack: +2 defensive strength";
+			document.getElementById("a1").innerHTML = "Counterattack: +1 defensive strength";
 			document.getElementById("a2").innerHTML = "Sneak Attack: +2 offensive strength";
-			 cse[1] = "+2DS"
+			 cse[1] = "+1DS"
 			 cse[2] = "+2OS"
 			 cs[1] = 9;
 			 cs[3] = 9;
@@ -559,9 +559,9 @@ function writeAbilities() {
 			document.getElementById("abi8").style.visibility="hidden";document.getElementById("a8").style.visibility="hidden";
 			document.getElementById("abi9").style.visibility="hidden";document.getElementById("a9").style.visibility="hidden";
 			document.getElementById("abi10").style.visibility="hidden";document.getElementById("a10").style.visibility="hidden";
-			document.getElementById("a1").innerHTML = "Counterattack: +2 defensive strength";
+			document.getElementById("a1").innerHTML = "Counterattack: +1 defensive strength";
 			document.getElementById("a7").innerHTML = "Sneak Attack: +2 offensive strength";
-			 cse[6] = "+2DS"
+			 cse[6] = "+1DS"
 			 cse[7] = "+2OS"
 			 cs[2] = 9;
 			 cs[4] = 9;
@@ -816,10 +816,10 @@ function writeAbilities() {
 			document.getElementById("abi5").style.visibility="hidden";document.getElementById("a5").style.visibility="hidden";
 			document.getElementById("a1").innerHTML = "Improved Ordnance: +1 offensive strength";
 			document.getElementById("a2").innerHTML = "Waste Disposal: +2 defensive strength versus Melee";
-			document.getElementById("a3").innerHTML = "Shock and Awe: +1 offensive strength";
+			document.getElementById("a3").innerHTML = "Shock and Awe: +2 offensive strength";
 			 cse[1] = "+1OS"
 			 cse[2] = "+2DSvM"
-			 cse[3] = "+1OS"
+			 cse[3] = "+2OS"
 			 cs[1] = 9;
 			 cs[3] = 8;
 		}
@@ -828,10 +828,10 @@ function writeAbilities() {
 			document.getElementById("abi10").style.visibility="hidden";document.getElementById("a10").style.visibility="hidden";
 			document.getElementById("a6").innerHTML = "Improved Ordnance: +1 offensive strength";
 			document.getElementById("a7").innerHTML = "Waste Disposal: +2 defensive strength versus Melee";
-			document.getElementById("a8").innerHTML = "Shock and Awe: +1 offensive strength";
+			document.getElementById("a8").innerHTML = "Shock and Awe: +2 offensive strength";
 			 cse[6] = "+1OS"
 			 cse[7] = "+2DSvM"
-			 cse[8] = "+1OS"
+			 cse[8] = "+2OS"
 			 cs[2] = 9;
 			 cs[4] = 8;
 		}
@@ -840,10 +840,10 @@ function writeAbilities() {
 			document.getElementById("abi4").style.visibility="hidden";document.getElementById("a4").style.visibility="hidden";
 			document.getElementById("abi5").style.visibility="hidden";document.getElementById("a5").style.visibility="hidden";
 			document.getElementById("a1").innerHTML = "Perfect Parry: -1 damage from attacks";
-			document.getElementById("a2").innerHTML = "Blade Dance: +1 offensive strength";
+			document.getElementById("a2").innerHTML = "Blade Dance: +2 offensive strength";
 			document.getElementById("a3").innerHTML = "Edge Mastery: +2 combat strength";
 			 cse[1] = "-1DA"
-			 cse[2] = "+1OS"
+			 cse[2] = "+2OS"
 			 cse[3] = "+2CS"
 			 cs[1] = 8;
 			 cs[3] = 8;
@@ -852,10 +852,10 @@ function writeAbilities() {
 			document.getElementById("abi9").style.visibility="hidden";document.getElementById("a9").style.visibility="hidden";
 			document.getElementById("abi10").style.visibility="hidden";document.getElementById("a10").style.visibility="hidden";
 			document.getElementById("a6").innerHTML = "Perfect Parry: -1 damage from attacks";
-			document.getElementById("a7").innerHTML = "Blade Dance: +1 offensive strength";
+			document.getElementById("a7").innerHTML = "Blade Dance: +2 offensive strength";
 			document.getElementById("a8").innerHTML = "Edge Mastery: +2 combat strength";
 			 cse[6] = "-1DA"
-			 cse[7] = "+1OS"
+			 cse[7] = "+2OS"
 			 cse[8] = "+2CS"
 			 cs[2] = 8;
 			 cs[4] = 8;
