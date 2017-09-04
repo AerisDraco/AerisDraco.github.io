@@ -15,54 +15,54 @@ function saveData() {
 		} else if (u1 == "Siege") {
 			var fu1 = "Catapult"
 		}
-	} else if (f1 == "Mountain Men") {
-		if (u1 == "Melee") {
+	} else if (f1 == "Mountain Men" || f1 == "Mountain" || f1 == "mountain" || f1 == "SUNRAY") {
+		if (u1 == "Melee" || u1 == "melee") {
 			var fu1 = "Barbarian"
-		} else if (u1 == "Archer") {
+		} else if (u1 == "Archer" || u1 == "archer") {
 			var fu1 = "Musketeer"
-		} else if (u1 == "Mage") {
+		} else if (u1 == "Mage" || u1 == "mage") {
 			var fu1 = "Sorcerer"
-		} else if (u1 == "Siege") {
+		} else if (u1 == "Siege" || u1 == "siege") {
 			var fu1 = "Sasquatch"
 		}
-	} else if (f1 == "Dark Forces") {
-		if (u1 == "Melee") {
+	} else if (f1 == "Dark Forces" || f1 == "DF" || f1 == "Vez'nan" || f1 == "vezziemen") {
+		if (u1 == "Melee" || u1 == "melee") {
 			var fu1 = "Dark Knight"
-		} else if (u1 == "Archer") {
+		} else if (u1 == "Archer" || u1 == "archer") {
 			var fu1 = "Shadow Archer"
-		} else if (u1 == "Mage") {
+		} else if (u1 == "Mage" || u1 == "mage") {
 			var fu1 = "Necromancer"
-		} else if (u1 == "Siege") {
+		} else if (u1 == "Siege" || u1 == "siege") {
 			var fu1 = "Lava Elemental"
 		}
-	} else if (f1 == "Desert Warriors") {
-		if (u1 == "Melee") {
+	} else if (f1 == "Desert Warriors" || f1 == "Desert" || f1 == "desert" || f1 == "sand") {
+		if (u1 == "Melee" || u1 == "melee") {
 			var fu1 = "Assassin"
-		} else if (u1 == "Archer") {
+		} else if (u1 == "Archer" || u1 == "archer") {
 			var fu1 = "Crossbow"
-		} else if (u1 == "Mage") {
+		} else if (u1 == "Mage" || u1 == "mage") {
 			var fu1 = "Archmage"
-		} else if (u1 == "Siege") {
+		} else if (u1 == "Siege" || u1 == "siege") {
 			var fu1 = "Genie"
 		}
-	} else if (f1 == "Jungle Savages") {
-		if (u1 == "Melee") {
+	} else if (f1 == "Jungle Savages" || f1 == "Jungle" || f1 == "jungle" || f1 == "Hannibal Lecter") {
+		if (u1 == "Melee" || u1 == "melee") {
 			var fu1 = "Savage Warrior"
-		} else if (u1 == "Archer") {
+		} else if (u1 == "Archer" || u1 == "archer") {
 			var fu1 = "Axethrower"
-		} else if (u1 == "Mage") {
+		} else if (u1 == "Mage" || u1 == "mage") {
 			var fu1 = "Shaman"
-		} else if (u1 == "Siege") {
+		} else if (u1 == "Siege" || u1 == "siege") {
 			var fu1 = "Gorillon"
 		}
-	} else if (f1 == "Dwarves") {
-		if (u1 == "Melee") {
+	} else if (f1 == "Dwarves" || f1 == "dwarves" || f1 == "dorf" || f1 == "boom") {
+		if (u1 == "Melee" || u1 == "melee") {
 			var fu1 = "Defender"
-		} else if (u1 == "Archer") {
+		} else if (u1 == "Archer" || u1 == "archer") {
 			var fu1 = "Sniper"
-		} else if (u1 == "Mage") {
+		} else if (u1 == "Mage" || u1 == "mage") {
 			var fu1 = "Tesla Gunner"
-		} else if (u1 == "Siege") {
+		} else if (u1 == "Siege" || u1 == "siege") {
 			var fu1 = "Battle Mech"
 		}
 	} else if (f1 == "Aredhel Elves") {
@@ -75,30 +75,30 @@ function saveData() {
 		} else if (u1 == "Siege") {
 			var fu1 = "Bastion"
 		}
-	} else if (f1 == "Forest Creatures") {
-		if (u1 == "Melee") {
+	} else if (f1 == "Forest Creatures" || f1 == "forest" || f1 == "Fae" || f1 == "changelings") {
+		if (u1 == "Melee" || u1 == "melee") {
 			var fu1 = "Forest Keeper"
-		} else if (u1 == "Archer") {
+		} else if (u1 == "Archer" || u1 == "archer") {
 			var fu1 = "Awok"
-		} else if (u1 == "Mage") {
+		} else if (u1 == "Mage" || u1 == "mage") {
 			var fu1 = "Gnome"
-		} else if (u1 == "Siege") {
+		} else if (u1 == "Siege" || u1 == "siege") {
 			var fu1 = "Arch-Druid"
 		}
-	} else if (f1 == "Twilight Elves") {
-		if (u1 == "Melee") {
+	} else if (f1 == "Twilight Elves" || f1 == "Twilight" || f1 == "twilight" || f1 == "edgy elves") {
+		if (u1 == "Melee" || u1 == "melee") {
 			var fu1 = "Avenger"
-		} else if (u1 == "Archer") {
+		} else if (u1 == "Archer" || u1 == "archer") {
 			var fu1 = "Harasser"
-		} else if (u1 == "Mage") {
+		} else if (u1 == "Mage" || u1 == "mage") {
 			var fu1 = "Evoker"
-		} else if (u1 == "Siege") {
+		} else if (u1 == "Siege" || u1 == "siege") {
 			var fu1 = "Brute"
 		}
 	} 
 	if (f2 == "Linirea") {
 		if (u2 == "Melee") {
-			var fu2 = "Archmage"
+			var fu2 = "Paladin"
 		} else if (u2 == "Archer") {
 			var fu2 = "Ranger"
 		} else if (u2 == "Mage") {
@@ -106,54 +106,54 @@ function saveData() {
 		} else if (u2 == "Siege") {
 			var fu2 = "Catapult"
 		}
-	} else if (f2 == "Mountain Men") {
-		if (u2 == "Melee") {
+	} else if (f2 == "Mountain Men" || f2 == "Mountain" || f2 == "mountain" || f2 == "SUNRAY") {
+		if (u2 == "Melee" || u2 == "melee") {
 			var fu2 = "Barbarian"
-		} else if (u2 == "Archer") {
+		} else if (u2 == "Archer" || u2 == "archer") {
 			var fu2 = "Musketeer"
-		} else if (u2 == "Mage") {
+		} else if (u2 == "Mage" || u2 == "mage") {
 			var fu2 = "Sorcerer"
-		} else if (u2 == "Siege") {
+		} else if (u2 == "Siege" || u2 == "siege") {
 			var fu2 = "Sasquatch"
 		}
-	} else if (f2 == "Dark Forces") {
-		if (u2 == "Melee") {
+	} else if (f2 == "Dark Forces" || f2 == "DF" || f2 == "Vez'nan" || f2 == "vezziemen") {
+		if (u2 == "Melee" || u2 == "melee") {
 			var fu2 = "Dark Knight"
-		} else if (u2 == "Archer") {
+		} else if (u2 == "Archer" || u2 == "archer") {
 			var fu2 = "Shadow Archer"
-		} else if (u2 == "Mage") {
+		} else if (u2 == "Mage" || u2 == "mage") {
 			var fu2 = "Necromancer"
-		} else if (u2 == "Siege") {
+		} else if (u2 == "Siege" || u2 == "siege") {
 			var fu2 = "Lava Elemental"
 		}
-	} else if (f2 == "Desert Warriors") {
-		if (u2 == "Melee") {
+	} else if (f2 == "Desert Warriors" || f2 == "Desert" || f2 == "desert" || f2 == "sand") {
+		if (u2 == "Melee" || u2 == "melee") {
 			var fu2 = "Assassin"
-		} else if (u2 == "Archer") {
+		} else if (u2 == "Archer" || u2 == "archer") {
 			var fu2 = "Crossbow"
-		} else if (u2 == "Mage") {
+		} else if (u2 == "Mage" || u2 == "mage") {
 			var fu2 = "Archmage"
-		} else if (u2 == "Siege") {
+		} else if (u2 == "Siege" || u2 == "siege") {
 			var fu2 = "Genie"
 		}
-	} else if (f2 == "Jungle Savages") {
-		if (u2 == "Melee") {
+	} else if (f2 == "Jungle Savages" || f2 == "Jungle" || f2 == "jungle" || f2 == "Hannibal Lecter") {
+		if (u2 == "Melee" || u2 == "melee") {
 			var fu2 = "Savage Warrior"
-		} else if (u2 == "Archer") {
+		} else if (u2 == "Archer" || u2 == "archer") {
 			var fu2 = "Axethrower"
-		} else if (u2 == "Mage") {
+		} else if (u2 == "Mage" || u2 == "mage") {
 			var fu2 = "Shaman"
-		} else if (u2 == "Siege") {
+		} else if (u2 == "Siege" || u2 == "siege") {
 			var fu2 = "Gorillon"
 		}
-	} else if (f2 == "Dwarves") {
-		if (u2 == "Melee") {
+	} else if (f2 == "Dwarves" || f2 == "dwarves" || f2 == "dorf" || f2 == "boom") {
+		if (u2 == "Melee" || u2 == "melee") {
 			var fu2 = "Defender"
-		} else if (u2 == "Archer") {
+		} else if (u2 == "Archer" || u2 == "archer") {
 			var fu2 = "Sniper"
-		} else if (u2 == "Mage") {
+		} else if (u2 == "Mage" || u2 == "mage") {
 			var fu2 = "Tesla Gunner"
-		} else if (u2 == "Siege") {
+		} else if (u2 == "Siege" || u2 == "siege") {
 			var fu2 = "Battle Mech"
 		}
 	} else if (f2 == "Aredhel Elves") {
@@ -166,28 +166,28 @@ function saveData() {
 		} else if (u2 == "Siege") {
 			var fu2 = "Bastion"
 		}
-	} else if (f2 == "Forest Creatures") {
-		if (u2 == "Melee") {
+	} else if (f2 == "Forest Creatures" || f2 == "forest" || f2 == "Fae" || f2 == "changelings") {
+		if (u2 == "Melee" || u2 == "melee") {
 			var fu2 = "Forest Keeper"
-		} else if (u2 == "Archer") {
+		} else if (u2 == "Archer" || u2 == "archer") {
 			var fu2 = "Awok"
-		} else if (u2 == "Mage") {
+		} else if (u2 == "Mage" || u2 == "mage") {
 			var fu2 = "Gnome"
-		} else if (u2 == "Siege") {
+		} else if (u2 == "Siege" || u2 == "siege") {
 			var fu2 = "Arch-Druid"
 		}
-	} else if (f2 == "Twilight Elves") {
-		if (u2 == "Melee") {
+	} else if (f2 == "Twilight Elves" || f2 == "Twilight" || f2 == "twilight" || f2 == "edgy elves") {
+		if (u2 == "Melee" || u2 == "melee") {
 			var fu2 = "Avenger"
-		} else if (u2 == "Archer") {
+		} else if (u2 == "Archer" || u2 == "archer") {
 			var fu2 = "Harasser"
-		} else if (u2 == "Mage") {
+		} else if (u2 == "Mage" || u2 == "mage") {
 			var fu2 = "Evoker"
-		} else if (u2 == "Siege") {
+		} else if (u2 == "Siege" || u2 == "siege") {
 			var fu2 = "Brute"
 		}
 	} 
-	if (u1 == "City" || u2 == "City") {
+	if (u1 == "City" || u2 == "City" || u1 == "city" || u2 == "city") {
 		if (f1 == "Aredhel Elves") {
 			var fu1 = "Elven City"
 		} else if (f2 == "Aredhel Elves") {
@@ -447,7 +447,7 @@ function writeAbilities() {
 			document.getElementById("abi5").style.visibility="hidden";document.getElementById("a5").style.visibility="hidden";
 			document.getElementById("a1").innerHTML = "Shield Bash: +1 combat strength";
 			document.getElementById("a2").innerHTML = "Dark Slayer: +1 combat strength";
-			document.getElementById("a3").innerHTML = "Dark Pact: +1 combat strength versus Wizards";
+			document.getElementById("a3").innerHTML = "Dark Pact: +1 combat strength versus Archers";
 			 cse[1] = "+1CS"
 			 cse[2] = "+1CS"
 			 cse[3] = "+1CSvW"
@@ -459,7 +459,7 @@ function writeAbilities() {
 			document.getElementById("abi10").style.visibility="hidden";document.getElementById("a10").style.visibility="hidden";
 			document.getElementById("a6").innerHTML = "Shield Bash: +1 combat strength";
 			document.getElementById("a7").innerHTML = "Dark Slayer: +1 combat strength";
-			document.getElementById("a8").innerHTML = "Dark Pact: +1 combat strength versus Wizards";
+			document.getElementById("a8").innerHTML = "Dark Pact: +1 combat strength versus Archers";
 			 cse[6] = "+1CS"
 			 cse[7] = "+1CS"
 			 cse[8] = "+1CSvW"
@@ -472,7 +472,7 @@ function writeAbilities() {
 			document.getElementById("a1").innerHTML = "Eagle Eye: +1 offensive strength";
 			document.getElementById("a2").innerHTML = "Opportunist: +1 combat strength versus wounded units";
 			document.getElementById("a3").innerHTML = "Strafe: +2 defensive strength versus Melee";
-			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Melee";
+			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Wizards";
 			 cse[1] = "+1OS"
 			 cse[2] = "+1CS"
 			 cse[3] = "+2DSvM"
@@ -485,7 +485,7 @@ function writeAbilities() {
 			document.getElementById("a6").innerHTML = "Eagle Eye: +1 offensive strength";
 			document.getElementById("a7").innerHTML = "Opportunist: +1 combat strength versus wounded units";
 			document.getElementById("a8").innerHTML = "Strafe: +2 defensive strength versus Melee";
-			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Melee";
+			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Wizards";
 			 cse[6] = "+1OS"
 			 cse[7] = "+1CS"
 			 cse[8] = "+2DSvM"
@@ -499,7 +499,7 @@ function writeAbilities() {
 			document.getElementById("a1").innerHTML = "Summon Skeleton: +1 defensive strength";
 			document.getElementById("a2").innerHTML = "Eldritch Power: +1 offensive strength";
 			document.getElementById("a3").innerHTML = "Death Knight: +2 defensive strength";
-			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Archers";
+			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Melee";
 			 cse[1] = "+1DS"
 			 cse[2] = "+1OS"
 			 cse[3] = "+2DS"
@@ -512,7 +512,7 @@ function writeAbilities() {
 			document.getElementById("a6").innerHTML = "Summon Skeleton: +1 defensive strength";
 			document.getElementById("a7").innerHTML = "Eldritch Power: +1 offensive strength";
 			document.getElementById("a8").innerHTML = "Death Knight: +2 defensive strength";
-			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Archers";
+			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Melee";
 			 cse[6] = "+1DS"
 			 cse[7] = "+1OS"
 			 cse[8] = "+2DS"
