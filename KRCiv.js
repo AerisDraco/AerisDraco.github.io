@@ -447,7 +447,7 @@ function writeAbilities() {
 			document.getElementById("abi5").style.visibility="hidden";document.getElementById("a5").style.visibility="hidden";
 			document.getElementById("a1").innerHTML = "Shield Bash: +1 combat strength";
 			document.getElementById("a2").innerHTML = "Dark Slayer: +1 combat strength";
-			document.getElementById("a3").innerHTML = "Dark Pact: +1 combat strength versus Archers";
+			document.getElementById("a3").innerHTML = "Dark Pact: +1 combat strength versus Mages";
 			 cse[1] = "+1CS"
 			 cse[2] = "+1CS"
 			 cse[3] = "+1CSvW"
@@ -459,7 +459,7 @@ function writeAbilities() {
 			document.getElementById("abi10").style.visibility="hidden";document.getElementById("a10").style.visibility="hidden";
 			document.getElementById("a6").innerHTML = "Shield Bash: +1 combat strength";
 			document.getElementById("a7").innerHTML = "Dark Slayer: +1 combat strength";
-			document.getElementById("a8").innerHTML = "Dark Pact: +1 combat strength versus Archers";
+			document.getElementById("a8").innerHTML = "Dark Pact: +1 combat strength versus Mages";
 			 cse[6] = "+1CS"
 			 cse[7] = "+1CS"
 			 cse[8] = "+1CSvW"
@@ -472,7 +472,7 @@ function writeAbilities() {
 			document.getElementById("a1").innerHTML = "Eagle Eye: +1 offensive strength";
 			document.getElementById("a2").innerHTML = "Opportunist: +1 combat strength versus wounded units";
 			document.getElementById("a3").innerHTML = "Strafe: +2 defensive strength versus Melee";
-			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Wizards";
+			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Melee";
 			 cse[1] = "+1OS"
 			 cse[2] = "+1CS"
 			 cse[3] = "+2DSvM"
@@ -485,7 +485,7 @@ function writeAbilities() {
 			document.getElementById("a6").innerHTML = "Eagle Eye: +1 offensive strength";
 			document.getElementById("a7").innerHTML = "Opportunist: +1 combat strength versus wounded units";
 			document.getElementById("a8").innerHTML = "Strafe: +2 defensive strength versus Melee";
-			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Wizards";
+			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Melee";
 			 cse[6] = "+1OS"
 			 cse[7] = "+1CS"
 			 cse[8] = "+2DSvM"
@@ -499,7 +499,7 @@ function writeAbilities() {
 			document.getElementById("a1").innerHTML = "Summon Skeleton: +1 defensive strength";
 			document.getElementById("a2").innerHTML = "Eldritch Power: +1 offensive strength";
 			document.getElementById("a3").innerHTML = "Death Knight: +2 defensive strength";
-			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Melee";
+			document.getElementById("a4").innerHTML = "Dark Pact: +1 combat strength versus Archers";
 			 cse[1] = "+1DS"
 			 cse[2] = "+1OS"
 			 cse[3] = "+2DS"
@@ -512,7 +512,7 @@ function writeAbilities() {
 			document.getElementById("a6").innerHTML = "Summon Skeleton: +1 defensive strength";
 			document.getElementById("a7").innerHTML = "Eldritch Power: +1 offensive strength";
 			document.getElementById("a8").innerHTML = "Death Knight: +2 defensive strength";
-			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Melee";
+			document.getElementById("a9").innerHTML = "Dark Pact: +1 combat strength versus Archers";
 			 cse[6] = "+1DS"
 			 cse[7] = "+1OS"
 			 cse[8] = "+2DS"
