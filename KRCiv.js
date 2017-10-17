@@ -188,9 +188,9 @@ function saveData() {
 		}
 	} 
 	if (u1 == "City" || u2 == "City" || u1 == "city" || u2 == "city") {
-		if (f1 == "City") {
+		if (u1 == "City") {
 			var fu1 = "City"
-		} else if (f2 == "City") {
+		} else if (u2 == "City") {
 			var fu2 = "City"
 		} else if (f1 == "Aredhel Elves") {
 			var fu1 = "Elven City"
